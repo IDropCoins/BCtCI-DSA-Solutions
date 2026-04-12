@@ -60,3 +60,22 @@ def find_lca_inclusive(node1: Node | None, node2: Node | None) -> int | None:
         if aid in ids2:
             return aid
     return None
+
+def distance_between_nodes(node1: Node | None, node2: Node | None) -> int | None:
+    """How many edges are on the path between these two nodes (0 if the same node)?"""
+    if not node1 or not node2:
+        return None
+    if node1 is node2 or node1.id == node2.id:
+        return 0
+    list1 = find_ancestors_id(node1)
+    list2 = find_ancestors_id(node2)
+    ids1 = set(list1)
+    ids2 = set(list2)
+    if node1.id in ids2:
+        return list2.index(node1.id) + 1
+    if node2.id in ids1:
+        return list1.index(node2.id) + 1
+    for aid in list1:
+        if aid in ids2:
+            return list1.index(aid) + list2.index(aid) + 2
+    return None
