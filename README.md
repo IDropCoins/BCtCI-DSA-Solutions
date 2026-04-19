@@ -6,7 +6,7 @@ This repo is my personal practice log as I work through the book — one problem
 
 ---
 
-## About the book
+## About the book 📘
 
 _Beyond Cracking the Coding Interview_ (2025) is the follow-up to the classic _Cracking the Coding Interview_. It covers 24 core DSA topics for technical interviews, including two pointers, sliding windows, binary search, trees, graphs, heaps, backtracking, dynamic programming, topological sort, and more.
 
@@ -14,7 +14,7 @@ This repo tracks my solutions as I go through the book's problems.
 
 ---
 
-## Repository structure
+## Repository structure 📂
 
 Problems are organized into folders by topic. Each file solves a single problem and is named after the problem and the page number in the book, so it's easy to cross-reference.
 
@@ -36,7 +36,7 @@ BCtCI-DSA-Solutions/
 
 More topic folders will be added as I work through the book (arrays, strings, two pointers, binary search, graphs, heaps, DP, etc.).
 
-### File naming convention
+### File naming convention 🏷️
 
 ```
 <problem_name>_page_<page_number>.py
@@ -49,7 +49,7 @@ Warm-up / easier exercises use the `warmup_` prefix.
 
 ---
 
-## File layout
+## File layout 🧩
 
 Each solution file typically contains:
 
@@ -97,7 +97,7 @@ if __name__ == "__main__":
 
 ---
 
-## Running a solution
+## Running a solution ▶️
 
 Every file is self-contained and runnable.
 
@@ -124,7 +124,7 @@ done
 
 ---
 
-## Progress
+## Progress 📈
 
 | Topic | Folder | Problems solved |
 | ----- | ------ | --------------- |
@@ -134,7 +134,7 @@ More topics coming as I progress through the book.
 
 ---
 
-## Notes
+## Notes 📝
 
 - These solutions are **my own work**. Problem statements are referenced by page number only — no text is copied from the book, out of respect for the authors' copyright. If you want the actual problem descriptions, please buy the book at [bctci.co](https://www.bctci.co/).
 - Solutions aim to be correct and readable first, then efficient. Where relevant, I'll add comments on time/space complexity and alternative approaches.
@@ -142,13 +142,13 @@ More topics coming as I progress through the book.
 
 ---
 
-## License
+## License 📄
 
 Code in this repository is released under the [MIT License](./LICENSE). The book itself and its problem statements are the property of their respective authors and publisher.
 
 ---
 
-## Disclaimer
+## Disclaimer ⚠️
 
 This is an unofficial, independent study repository. It is not affiliated with or endorsed by the authors or publisher of _Beyond Cracking the Coding Interview_.
 
